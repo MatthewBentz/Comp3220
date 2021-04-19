@@ -1,0 +1,102 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U assgn%b		assgn.adb		e4df98a9 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U assgn%s		assgn.ads		294b8501 EE NE OO PK
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D assgn.ads		20210419205741 294b8501 assgn%s
+D assgn.adb		20210419214920 4589aef2 assgn%b
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-imgint.ads		20200312110721 02dbe0c2 system.img_int%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|1w10 1r27
+166U14*New_Line 9|37s9
+242U14*Put 9|35s13
+X 8 assgn.ads
+1K9*Assgn 34l5 34e10 9|3b14 160l5 160t10
+2I12*HALF_INT{integer}
+3I12*BINARY_NUMBER{integer} 4r41 9|9r20 11r23 35r17
+4A9*BINARY_ARRAY(3I12)<integer> 7r38 10r44 13r38 16r49 19r34 22r35 22r56
+. 26r29 26r50 29r35 29r56 33r29 33r50 9|6r38 15r44 17r18 31r38 41r49 43r15
+. 57r34 60r18 78r35 78r56 82r18 103r29 103r50 105r19 106r19 116r35 116r56
+. 118r27 119r18 148r29 148r50 150r19 151r19
+7U14*Init_Array 7=26 9|6b14 13l9 13t19
+7a26 Arr{4A9} 9|6b26 9m9 11m13
+10U14*Reverse_Bin_Arr 10=31 9|15b14 29l9 29t24 67s9
+10a31 Arr{4A9} 9|15b31 23r26 27m13
+13U14*Print_Bin_Arr 13>29 9|31b14 38l9 38t22
+13a29 Arr{4A9} 9|31b29 35r38
+16V13*Int_To_Bin{4A9} 16>24 9|41b13 54l9 54t19 109s20 154s20
+16i24 Num{integer} 9|41b24 47r16
+19V13*Bin_To_Int{integer} 19>25 9|57b13 75l9 75t19
+19a25 Arr{4A9} 9|57b25 66r19
+22V14*"+"{4A9} 22>18 22>24 9|78b14 99l10 99t12 110s27 130s35
+22a18 Left{4A9} 9|78b18 89r20
+22a24 Right{4A9} 9|78b24 89r30
+25V14*"+"{4A9} 25>18 26>18 9|102b14 113l10 113t12 127s39
+25i18 Left{integer} 9|102b18 109r31
+26a18 Right{4A9} 9|103b18 110r29
+29V14*"-"{4A9} 29>18 29>24 9|116b14 144l10 144t12 155s27
+29a18 Left{4A9} 9|116b18 130r37
+29a24 Right{4A9} 9|116b24 125r36
+32V14*"-"{4A9} 32>18 33>18 9|147b14 158l10 158t12
+32i18 Left{integer} 9|147b18 154r31
+33a18 Right{4A9} 9|148b18 155r29
+X 9 assgn.adb
+10i13 I{integer} 11r17
+17a9 NewArr{8|4A9} 23m13 27r23
+18i9 index{integer} 22m13 23r30
+21i13 I{integer} 22r26 23r20
+26i13 I{integer} 27r17 27r30
+34i13 I{integer} 35r42
+43a9 Arr{8|4A9} 49m13 53r12
+44i9 int{integer} 47m9 49r23 50m13 50r20
+48i13 I{integer} 49r17
+59i9 int{integer} 65m9 70m13 71r32
+60a9 revArr{8|4A9} 66m9 67m25 67r25 70r27
+61i9 retval{integer} 64m9 71m13 71r23 74r12
+69i13 I{integer} 70r23 70r34
+80i9 sum{integer} 85m9 89m13 90r26 92r16
+81i9 carry{integer} 86m9 89r41 93m17 95m17
+82a9 retval{8|4A9} 90m13 98r16
+88i13 I{integer} 89r25 89r36 90r20
+105a9 LeftArr{8|4A9} 109m9 110r19
+106a9 retval{8|4A9} 110m9 112r16
+118a9 RightComplement{8|4A9} 125m13 127m9 127r41 130r19
+119a9 retval{8|4A9} 130m9 134r15 138m9 143r16
+120i9 index{integer} 133m9 134r22 135m13 135r22 138r16
+124i13 I{integer} 125r29 125r42
+150a9 LeftArr{8|4A9} 154m9 155r19
+151a9 retval{8|4A9} 155m9 157r16
+

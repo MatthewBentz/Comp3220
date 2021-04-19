@@ -1,0 +1,82 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U main%b		main.adb		4607c50a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W assgn%s		assgn.adb		assgn.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-flteio.ads		20200312110721 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20200312110721 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiflio.ads		20200312110721 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D assgn.ads		20210419205741 294b8501 assgn%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D main.adb		20210419203608 f0903d55 main%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r19 1r38 2r5 2r18 2r37
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 15|1w23 2r22
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 15|1w42 2r41
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|16s4 20s4 22s4 28s4 33s4 36s4 39s4 42s4 50s4 53s4 59s4
+. 62s4 65s4 68s4 70s4 75s4 78s4 81s4 83s4 88s4
+242U14*Put 15|15s4 19s4 26s4 27s4 27s38 32s4 34s4 37s4 40s4 43s4 47s4 49s4
+. 51s4 54s4 58s4 60s4 63s4 66s4 69s4 74s4 76s4 79s4 82s4 87s4
+X 10 a-tiinio.ads
+66U14*Put 15|21s4[4|18] 27s24[4|18] 35s4[4|18] 38s4[4|18] 41s4[4|18] 48s4[4|18]
+. 52s4[4|18] 61s4[4|18] 64s4[4|18] 67s4[4|18] 77s4[4|18] 80s4[4|18]
+X 12 assgn.ads
+1K9*Assgn 34e10 15|1w59 2r58
+2I12*HALF_INT{integer} 15|7r11 8r12 9r12
+3I12*BINARY_NUMBER{integer}
+4A9*BINARY_ARRAY(3I12)<integer> 15|6r46
+7U14*Init_Array 15|13s4
+10U14*Reverse_Bin_Arr 15|86s4
+13U14*Print_Bin_Arr 15|17s4 29s4 44s4 55s4 71s4 84s4 89s4
+16V13*Int_To_Bin{4A9} 15|24s21 46s14 73s14
+19V13*Bin_To_Int{integer} 15|21s8 35s8 38s8 41s8 52s8 61s8 64s8 67s8 77s8
+. 80s8
+22V14*"+"{4A9} 15|31s23 46s32
+29V14*"-"{4A9} 15|57s23 73s32
+X 15 main.adb
+4U11*Main 4b11 91l5 91t9
+6a4 My_Array{12|4A9} 13m15 13r15 17r18 21r19 31r14 35r19 57r14 61r19 73r34
+. 77r19
+6a14 Another_Array{12|4A9} 24m4 29r18 31r25 38r19 57r25 64r19
+6a29 Array3{12|4A9} 31m4 41r19 44r18 46m4 46r34 52r19 55r18
+6a37 Array4{12|4A9} 57m4 67r19 71r18 73m4 80r19 84r18 86m20 86r20 89r18
+7i4 Test{12|2I12} 24r32 27r28
+8i4 Test2{12|2I12} 46r25 48r8
+9i4 Test3{12|2I12} 73r25
+
