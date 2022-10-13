@@ -5,7 +5,7 @@ Principles of Programming Languages with Dr. Sardinas at Auburn University
 Coded in Ruby/Racket/Ada with Sublime Text/Visual Studio
 
 ```
-    Total Views per Day from 2022-08-30 to 2022-10-12
+    Total Views per Day from 2022-08-30 to 2022-10-13
 
     Repository Views
    34.00  ┼                         ╭╮
@@ -22,10 +22,10 @@ Coded in Ruby/Racket/Ada with Sublime Text/Visual Studio
     9.07  ┤ │      ││        ╭╯│ ││ │ │
     6.80  ┤ ╰╮     ││        │ │ │╰╮│ │
     4.53  ┤  │ ╭╮  ││        │ │╭╯ ╰╯ │
-    2.27  ┤  │ ││  ││ ╭╮    ╭╯ ││     │
-    0.00  ┤  ╰─╯╰──╯╰─╯╰────╯  ╰╯     ╰───────────────
+    2.27  ┤  │ ││  ││ ╭╮    ╭╯ ││     │              ╭╮
+    0.00  ┤  ╰─╯╰──╯╰─╯╰────╯  ╰╯     ╰──────────────╯╰
 
-    Chart last updated - Wed Oct 12 00:50:38 2022 UTC
+    Chart last updated - Thu Oct 13 00:42:26 2022 UTC
     
 ```
 
