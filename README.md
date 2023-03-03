@@ -4,31 +4,8 @@ Principles of Programming Languages with Dr. Sardinas at Auburn University
 
 Coded in Ruby/Racket/Ada with Sublime Text/Visual Studio
 
-```
-        Total Views per Day from 2022-12-03 to 2023-03-02
-
-        Repository Views
-      56 ┼                                                                ╭╮
-      52 ┤                                                                ││                     ╭╮
-      49 ┤                                                                ││               ╭╮    ││
-      45 ┤                                                                ││               ││    ││
-      41 ┤                                                            ╭╮  ││               ││    ││
-      37 ┤                                                            │╰╮ ││               ││    ││
-      34 ┤                                                           ╭╯ │ ││               ││    ││
-      30 ┤                                                           │  │ ││               ││   ╭╯│
-      26 ┤                                                           │  │ ││               ││   │ │
-      22 ┤                                                         ╭─╯  │ ││               ││   │ │
-      19 ┤                                                         │    │ ││               ││   │ │
-      15 ┤                                                         │    │ ││               ││  ╭╯ │
-      11 ┤                                       ╭╮             ╭╮ │    ╰─╯│         ╭╮    ││  │  │
-       7 ┼╮                                      ││             ││╭╯       │         ││    ││ ╭╯  │
-       4 ┤│                                ╭╮    ││        ╭─╮ ╭╯╰╯        │      ╭╮ ││╭─╮ │╰╮│   │
-       0 ┤╰────────────────────────────────╯╰────╯╰────────╯ ╰─╯           ╰──────╯╰─╯╰╯ ╰─╯ ╰╯   ╰
-
-        Chart last updated - Thu Mar  2 00:32:18 2023 UTC
-        
-```
+![Views Chart](https://repostatscharts.s3.us-east-2.amazonaws.com/MatthewsRepos/Comp3220_ViewsChart.png)
 
 ---
 
-> RepoStats by [Wumphlett](https://github.com/Wumphlett)
+> Inspired by [RepoStats](https://github.com/wumphlett/repostats)
